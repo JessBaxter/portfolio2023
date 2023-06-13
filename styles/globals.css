@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Overriding styles */
+
+.btn-primary:disabled {
+  @apply bg-primary !important;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
