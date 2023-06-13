@@ -13,7 +13,7 @@ export default function Hero() {
             thrive in constantly changing situations, to forward-thinking
             businesses.
           </p>
-          <button className="btn btn-primary mr-6">
+          <button className="btn btn-primary text-white mr-6">
             <Link href="/#projects" alt="Projects I'm involved with">
               My Projects
             </Link>

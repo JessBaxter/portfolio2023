@@ -177,8 +177,9 @@ export default function Projects() {
               name: "OBSWebSocket",
               url: "https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md"
             },
-            { name: "Twitch&nbsp;API", url: "https://dev.twitch.tv/docs/api/" }
+            { name: "Twitch API", url: "https://dev.twitch.tv/docs/api/" }
           ]}
+          repoLink="https://github.com/JessBaxter/bsquared"
         />
         {/* PROJECT */}
         <Project
@@ -216,7 +217,7 @@ export default function Projects() {
             { name: "openai", url: "https://pypi.org/project/openai/" },
             { name: "gradio", url: "https://pypi.org/project/gradio/" },
             {
-              name: "Hugging&nbsp;Face",
+              name: "Hugging Face",
               url: "https://huggingface.co/docs/transformers/index"
             }
           ]}

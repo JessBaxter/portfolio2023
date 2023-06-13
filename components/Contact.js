@@ -11,7 +11,7 @@ export default function Contact() {
           alt="Contact me via LinkedIn"
           aria-label="My LinkedIn profile"
           target="_blank"
-          className="text-primary">
+          className="font-bold hover:underline">
           LinkedIn
         </a>
         .
@@ -22,7 +22,7 @@ export default function Contact() {
           alt="Contact me via LinkedIn"
           aria-label="My LinkedIn profile"
           target="_blank"
-          className="text-primary">
+          className="text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"

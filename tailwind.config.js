@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
-const primaryLight = "#00BAB1";
-const primaryLightFocus = "#00e0d5";
+const primaryLight = "#007D77";
+const primaryLightFocus = "#467875";
 const primaryDark = "#003d3a";
 const primaryDarkFocus = "#00716B";
 

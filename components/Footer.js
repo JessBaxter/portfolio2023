@@ -7,7 +7,7 @@ export default function Footer() {
     <>
       <footer className="footer p-10 text-base-content">
         <div>
-          <span className="font-bold text-primary">LEGAL</span>
+          <span className="font-bold">LEGAL</span>
           <Link
             href="/tos"
             alt="Terms of Service policy"
