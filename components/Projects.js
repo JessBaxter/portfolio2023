@@ -113,7 +113,7 @@ export default function Projects() {
         <Project
           imageSrc="/images/projects/electron-text-file-combiner.png"
           title="Text File Combiner"
-          description="Built while learning Electron, this app combines the contents of multiple text files into one file. It has been built as part of an 'intro to web dev' course, and therefore targetted at beginners."
+          description="Built while learning Electron, this app combines the contents of multiple text files into one file. It has been built as part of an 'intro to web dev' course, and is therefore targetted at beginners."
           techLinks={[{ name: "Electron", url: "https://www.electronjs.org/" }]}
           repoLink="https://github.com/JessBaxter/text-file-combiner"
         />
