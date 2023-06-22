@@ -115,6 +115,7 @@ export default function Projects() {
           title="Text File Combiner (Electron)"
           description="Built while learning Electron, this app combines the contents of multiple text files into one file. This functionality was required by another project."
           techLinks={[{ name: "Electron", url: "https://www.electronjs.org/" }]}
+          repoLink="https://github.com/JessBaxter/text-file-combiner"
         />
         {/* PROJECT */}
         <Project
