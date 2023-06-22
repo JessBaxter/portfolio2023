@@ -104,10 +104,17 @@ export default function Projects() {
           techLinks={[
             { name: "Next.JS", url: "https://nextjs.org/" },
             { name: "TailwindCSS", url: "https://tailwindcss.com/" },
-            { name: "DaisyUI", url: "https://daisyui.com/" }
+            { name: "DaisyUI", url: "https://daisyui.com/" },
             // add more as needed
           ]}
           repoLink="https://github.com/JessBaxter/portfolio/"
+        />
+        {/* PROJECT */}
+        <Project
+          imageSrc="/images/projects/electron-text-file-combiner.png"
+          title="Text File Combiner (Electron)"
+          description="Built while learning Electron, this app combines the contents of multiple text files into one file. This functionality was required by another project."
+          techLinks={[{ name: "Electron", url: "https://www.electronjs.org/" }]}
         />
         {/* PROJECT */}
         <Project
@@ -120,7 +127,7 @@ export default function Projects() {
           techLinks={[
             { name: "Node.JS", url: "https://nodejs.org/en" },
             { name: "MongoDB", url: "https://www.mongodb.com/" },
-            { name: "Swagger", url: "https://www.mongodb.com/" }
+            { name: "Swagger", url: "https://www.mongodb.com/" },
           ]}
         />
         {/* PROJECT */}
@@ -134,7 +141,7 @@ export default function Projects() {
           techLinks={[
             { name: "node.js", url: "https://nodejs.org/en" },
             { name: "React", url: "https://react.dev/" },
-            { name: "SQLite", url: "https://www.sqlite.org/index.html" }
+            { name: "SQLite", url: "https://www.sqlite.org/index.html" },
           ]}
         />
       </section>
@@ -159,7 +166,7 @@ export default function Projects() {
           techLinks={[
             { name: "Node.js", url: "https://nodejs.org/en" },
             { name: "MySQL", url: "https://www.mysql.com/" },
-            { name: "Next.JS", url: "https://nextjs.org/" }
+            { name: "Next.JS", url: "https://nextjs.org/" },
           ]}
         />
         {/* PROJECT */}
@@ -175,9 +182,9 @@ export default function Projects() {
             { name: "tmi.js", url: "https://tmijs.com/" },
             {
               name: "OBSWebSocket",
-              url: "https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md"
+              url: "https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md",
             },
-            { name: "Twitch API", url: "https://dev.twitch.tv/docs/api/" }
+            { name: "Twitch API", url: "https://dev.twitch.tv/docs/api/" },
           ]}
           repoLink="https://github.com/JessBaxter/bsquared"
         />
@@ -218,8 +225,8 @@ export default function Projects() {
             { name: "gradio", url: "https://pypi.org/project/gradio/" },
             {
               name: "Hugging Face",
-              url: "https://huggingface.co/docs/transformers/index"
-            }
+              url: "https://huggingface.co/docs/transformers/index",
+            },
           ]}
         />
         {/* PROJECT */}
@@ -231,7 +238,7 @@ export default function Projects() {
           weapons. I'd like to create a chromium extension that will allow me
           to keep track of which items I've collected."
           techLinks={[
-            { name: "JavaScript", url: "https://www.javascript.com/" }
+            { name: "JavaScript", url: "https://www.javascript.com/" },
           ]}
         />
         {/* PROJECT */}
@@ -246,7 +253,7 @@ export default function Projects() {
           organised."
           techLinks={[
             { name: "python", url: "https://www.python.org/" },
-            { name: "ImageHash", url: "https://pypi.org/project/ImageHash/" }
+            { name: "ImageHash", url: "https://pypi.org/project/ImageHash/" },
           ]}
         />
       </section>
