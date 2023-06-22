@@ -71,6 +71,13 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li>
+                  <Link
+                    href="/#skills-desktop"
+                    alt="My desktop application skills">
+                    Desktop App
+                  </Link>
+                </li>
+                <li>
                   <Link href="/#skills-education" alt="My other skills">
                     Education/Other
                   </Link>
@@ -143,6 +150,13 @@ export default function Navbar() {
                 <li>
                   <Link href="/#skills-backend" alt="My backend web dev skills">
                     Backend
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/#skills-desktop"
+                    alt="My desktop application skills">
+                    Desktop App
                   </Link>
                 </li>
                 <li>

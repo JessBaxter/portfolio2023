@@ -49,7 +49,7 @@ export default function Skills() {
           { skill: "JavaScript", skillAssessment: "80" },
           { skill: "Accessibility", skillAssessment: "90" },
           { skill: "Next.js", skillAssessment: "40" },
-          { skill: "React", skillAssessment: "40" }
+          { skill: "React", skillAssessment: "40" },
         ]}>
         These are the skills I've either taught myself, or learnt as part of my{" "}
         <span className="font-bold">
@@ -70,7 +70,7 @@ export default function Skills() {
           { skill: "MongoDB", skillAssessment: "70" },
           { skill: "SQLite", skillAssessment: "70" },
           { skill: "Swagger", skillAssessment: "70" },
-          { skill: "APIs", skillAssessment: "60" }
+          { skill: "APIs", skillAssessment: "60" },
         ]}>
         These are the skills I've either taught myself, or learnt as part of my{" "}
         <span className="font-bold">
@@ -78,6 +78,15 @@ export default function Skills() {
         </span>{" "}
         qualification. The progress bars illustrate a self-assessment of my
         journey towards proficiency in that field.
+      </SkillCard>
+
+      <div id="skills-desktop" className="pt-20"></div>
+      {/* BACKEND */}
+      <SkillCard
+        title="Desktop Application Knowledge"
+        skills={[{ skill: "Electron", skillAssessment: "50" }]}>
+        These are the skills I've taught myself, in order to satisfy client
+        requirements.
       </SkillCard>
 
       <div id="skills-education" className="pt-20"></div>
@@ -92,7 +101,7 @@ export default function Skills() {
           { skill: "IaC", skillAssessment: "70" },
           { skill: "Fedora", skillAssessment: "40" },
           { skill: "Ubuntu", skillAssessment: "40" },
-          { skill: "MacOS", skillAssessment: "60" }
+          { skill: "MacOS", skillAssessment: "60" },
         ]}>
         These are the Cloud, DevOps and CMS skills that I've learnt as part of
         my web development studies. My{" "}
