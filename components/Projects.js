@@ -113,7 +113,7 @@ export default function Projects() {
         <Project
           imageSrc="/images/projects/electron-text-file-combiner.png"
           title="Text File Combiner"
-          description="Built while learning Electron, this app combines the contents of multiple text files into one file. It has been built as part of an 'intro to web dev' course, and is therefore targetted at beginners."
+          description="While learning Electron for a client project, I found myself needing an application that could combine the contents of numerous text files into one. This was a great opportunity to apply what I was learning about Electron to a real-world app."
           techLinks={[{ name: "Electron", url: "https://www.electronjs.org/" }]}
           repoLink="https://github.com/JessBaxter/text-file-combiner"
         />
@@ -158,17 +158,41 @@ export default function Projects() {
       <section className="flex flex-wrap justify-center sm:flex-row">
         {/* PROJECT */}
         <Project
+          imageSrc="/images/projects/model-view-controller.jpg"
+          title="MVC project"
+          description="I learnt about the Model-View-Controller design pattern as part of my DipIT, and am working on furthering my knowledge with real-world projects."
+          techLinks={[
+            {
+              name: "HTML",
+              url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+            },
+            {
+              name: "CSS",
+              url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            },
+            {
+              name: "JavaScript",
+              url: "https://developer.mozilla.org/en-US/docs/Web/javascript",
+            },
+            { name: "Express", url: "https://expressjs.com/" },
+            { name: "node.js", url: "https://nodejs.org/en" },
+            { name: "MongoDB", url: "https://www.mongodb.com/" },
+          ]}
+          repoLink="https://github.com/JessBaxter/book-recs"
+        />
+        {/* PROJECT */}
+        <Project
           imageSrc="/images/projects/website-redesign-for-client.jpg"
           title="Client Website Redesign"
-          description="This project involves turning a single-page website into a fullstack
-          application with database integration. The site is being entirely
-          redesigned in order remedy the accessibility issues present in the
-          old design. It will also be optimised for SEO."
-          techLinks={[
-            { name: "Node.js", url: "https://nodejs.org/en" },
-            { name: "MySQL", url: "https://www.mysql.com/" },
-            { name: "Next.JS", url: "https://nextjs.org/" },
-          ]}
+          description="The client has requested an entire redesign of their site in order to improve its performance, accessibility and SEO rankings."
+          techLinks={[{ name: "Next.JS", url: "https://nextjs.org/" }]}
+        />
+        {/* PROJECT */}
+        <Project
+          imageSrc="/images/projects/spelling-app.jpg"
+          title="Spelling app"
+          description="A cross-platform solution for an app that identifies and corrects habitual spelling errors. As this project requires that I learn an entirely new programming language, I'm keeping the client informed about my progress."
+          techLinks={[{ name: "Flutter", url: "https://flutter.dev" }]}
         />
         {/* PROJECT */}
         <Project
