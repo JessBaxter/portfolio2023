@@ -84,7 +84,10 @@ export default function Skills() {
       {/* BACKEND */}
       <SkillCard
         title="Desktop Application Knowledge"
-        skills={[{ skill: "Electron", skillAssessment: "50" }]}>
+        skills={[
+          { skill: "Electron", skillAssessment: "50" },
+          { skill: "Flutter", skillAssessment: "20" },
+        ]}>
         These are the skills I've taught myself, in order to satisfy client
         requirements.
       </SkillCard>
