@@ -128,8 +128,9 @@ export default function Projects() {
           techLinks={[
             { name: "Node.JS", url: "https://nodejs.org/en" },
             { name: "MongoDB", url: "https://www.mongodb.com/" },
-            { name: "Swagger", url: "https://www.mongodb.com/" },
+            { name: "Swagger", url: "https://swagger.io/" },
           ]}
+          repoLink="https://github.com/JessBaxter/client-api"
         />
         {/* PROJECT */}
         <Project
