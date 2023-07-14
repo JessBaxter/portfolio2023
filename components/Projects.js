@@ -9,7 +9,14 @@ import { useEffect, useState } from "react";
 import SectionHeader from "./SectionHeader";
 
 // Reusable Project component
-function Project({ imageSrc, title, description, techLinks, repoLink }) {
+function Project({
+  imageSrc,
+  title,
+  description,
+  techLinks,
+  repoLink,
+  projectLink,
+}) {
   return (
     <div className="flex flex-col bg-neutral mx-3 mb-10 sm:max-w-screen-sm md:max-w-xs rounded-md drop-shadow-md">
       <div className="flex flex-col">
@@ -41,10 +48,10 @@ function Project({ imageSrc, title, description, techLinks, repoLink }) {
         <></>
       )}
       {/* Conditionally render the link if a repo is available */}
-      {repoLink ? (
-        <a href={repoLink} alt={`Github repo for ${title}`}>
+      {repoLink || projectLink ? (
+        <a href={repoLink || projectLink} alt={`Link for ${title}`}>
           <span className="flex flex-row p-4">
-            View the repo
+            {repoLink ? "View the repo" : "View the site"}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -116,6 +123,27 @@ export default function Projects() {
           description="While learning Electron for a client project, I found myself needing an application that could combine the contents of numerous text files into one. This was a great opportunity to apply what I was learning about Electron to a real-world app."
           techLinks={[{ name: "Electron", url: "https://www.electronjs.org/" }]}
           repoLink="https://github.com/JessBaxter/text-file-combiner"
+        />
+        {/* PROJECT */}
+        <Project
+          imageSrc="/images/projects/cipherscribe.jpg"
+          title="CipherScribe"
+          description="Designed as part of a lesson plan targetted at basic cryptography for young students. This solution needed to be lightweight, uncluttered and built for a class the next day."
+          techLinks={[
+            {
+              name: "HTML",
+              url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+            },
+            {
+              name: "CSS",
+              url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            },
+            {
+              name: "JavaScript",
+              url: "https://developer.mozilla.org/en-US/docs/Web/javascript",
+            },
+          ]}
+          projectLink="https://jessbaxter.github.io/cipherscribe/"
         />
         {/* PROJECT */}
         <Project
